@@ -23,8 +23,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    {/* layout présent dans chaque page du site web */}
     <html lang="en">
+    {/* layout présent dans chaque page du site web */}
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >

@@ -5,8 +5,10 @@ export default async function BlogSlugPage({ params }) {
 	const { slug } = await params;
 
 	return (
+		<main>
 		{/* affichage du slug dans la page */}
 		{/* à savoir, la valeur de slug sera dans le HTML de la page de manière statique */}
-		<main>This is a blog article with a custom slug : {slug}</main>
+			This is a blog article with a custom slug : {slug}
+		</main>
 	)
 }
